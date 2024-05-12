@@ -1,5 +1,5 @@
 [package]
-name = "boids"
+name = "game-of-life"
 version = "0.1.0"
 edition = "2021"
 default-run = "main"
@@ -9,11 +9,3 @@ default-run = "main"
 [dependencies]
 bevy = "0.12.1"
 rand = "0.8.5"
-
-[[bin]]
-name = "main"
-path = "src/main.rs"
-
-[[bin]]
-name = "life"
-path = "src/life.rs"

@@ -1174,14 +1174,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "boids"
-version = "0.1.0"
-dependencies = [
- "bevy",
- "rand",
-]
-
-[[package]]
 name = "bumpalo"
 version = "3.14.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1698,6 +1690,14 @@ dependencies = [
  "futures-io",
  "parking",
  "pin-project-lite",
+]
+
+[[package]]
+name = "game-of-life"
+version = "0.1.0"
+dependencies = [
+ "bevy",
+ "rand",
 ]
 
 [[package]]
