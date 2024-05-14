@@ -3,7 +3,7 @@ use bevy::diagnostic::LogDiagnosticsPlugin;
 use bevy::prelude::*;
 use rand::Rng;
 
-const GRID_WIDTH: usize = 200;
+const GRID_WIDTH: usize = 300;
 const GRID_HEIGHT: usize = GRID_WIDTH * 9 / 16;
 const CELL_SIZE: f32 = 3.0;
 
